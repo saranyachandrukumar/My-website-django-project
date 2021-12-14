@@ -1,0 +1,11 @@
+*{
+box-sizing:border-box;
+}
+.col{
+    float:left;
+    width:100%;
+    padding:3px;
+}
+.col img{
+    height:300px;
+}

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block contentarea %}
+
+<h1>Gallery</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img src="{% static 'ownflour1.jpg' %}" alt="ownflour1" style= "width:110%" "height:90%"/>
+        </div>
+        <div class="col">
+            <img src="{% static 'ownflour2.jpg' %}" alt="ownflour1" style="width:170%" "height:350%"/>
+        </div>
+        <div class="col">
+            <img src="{% static 'ownflour3.jpg' %}" alt="ownflour1" style="width:300" height="100%"/>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col">
+            <img src="{% static 'ownflour4.jpg' %}"alt="ownflour4" style="width:120%" height="140%"/>
+        </div>
+       <div class="col">
+            <img src="{% static 'ownflour5.jpg' %}"alt="ownflour4" style="width:120%" height="140%"/>
+        </div>
+            <div class="col">
+            <img src="{% static 'ownflour6.jpg' %}"alt="ownflour4" style="width:90%" height="140%"/>
+        </div>
+    </div>
+
+{% endblock %}
